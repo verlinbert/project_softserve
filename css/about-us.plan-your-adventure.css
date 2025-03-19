@@ -1,0 +1,87 @@
+.adventure-planner {
+    background-color: var(--primary-col);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.plan-your-adventure__outer-container {
+  max-width: 800px; 
+  width: 100%;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.plan-your-adventure__title {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--base-color);
+  margin-bottom: 15px;
+  font-family: 'Permanent Marker', serif;
+}
+
+.plan-your-adventure__text {
+  font-size: 18px;
+  color: var(--base-color);
+  margin-bottom: 20px;
+  font-family: 'Permanent Marker', serif;
+}
+
+.adventure-planner__button {
+  display: inline-block;
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 30px;
+  background-color: var(--color-accent);
+  color: var(--base-color);
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .plan-your-adventure__outer-container {
+      padding: 30px;
+    }
+    .our-team__list {
+      flex-direction: column; 
+      align-items: center;
+    }
+  
+    .plan-your-adventure__title {
+      font-size: 28px;
+    }
+  
+    .plan-your-adventure__text {
+      font-size: 16px;
+    }
+  
+    .adventure-planner__button {
+      font-size: 16px;
+      padding: 12px 24px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .plan-your-adventure__outer-container {
+      padding: 20px;
+    }
+  
+    .plan-your-adventure__title {
+      font-size: 24px;
+    }
+  
+    .plan-your-adventure__text {
+      font-size: 14px;
+    }
+  
+    .adventure-planner__button {
+      font-size: 14px;
+      padding: 10px 20px;
+      width: 100%; 
+    }
+  }
